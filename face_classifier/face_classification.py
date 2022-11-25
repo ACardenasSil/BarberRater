@@ -4,6 +4,23 @@ import math
 from PIL import Image
 
 
+# To list
+# Detect facial landmarks -- DONE
+# Process facial landmarks -- DONE
+# Extract needed features -- DONE
+# Need to find a data set
+# Might need to do some image pre-processing
+
+
+# Description: 
+# Currently I have extracted 19 facial landmarks
+# I need to use this data to classify face into
+# a category (round, square, oval, etc)
+# For example, round faces have values in some
+# ranges, square faces have values in a different
+# range, and so on. 
+
+
 
 def MeasureDistance(Point1, Point2):
 
@@ -44,7 +61,7 @@ face_mesh = mp_face_mesh.FaceMesh()
 
 
 
-# Image
+# Image path
 image = cv2.imread("person (1).jpg")
 
 
@@ -71,7 +88,7 @@ for facial_landmarks in result.multi_face_landmarks:
         #cv2.circle(image, (pt9_x,pt9_y), 2, (100, 100, 0), -1)
 
     # Marking coordinates for the facial points
-    # that I need to process the extraction of features data.
+    # that I need to process the extraction of facial features.
     pt1 = facial_landmarks.landmark[162]
     DrawPoint(pt1)
 
@@ -100,7 +117,6 @@ for facial_landmarks in result.multi_face_landmarks:
     pt9 = facial_landmarks.landmark[152]
     DrawPoint(pt9)
 
-    
     pt10 = facial_landmarks.landmark[400]
     DrawPoint(pt10)
 
@@ -148,7 +164,49 @@ for facial_landmarks in result.multi_face_landmarks:
 
     feature_3 = mouth_chin_length / jawline_length
 
+    
+    # features 4 through 11 are the angles (radians)
+    # the points make with point 9, starting
+    # front the LEFT ear.
+
+    # This can be optimized with a loop
+    # for testing purposes this will serve for now.
+
     feature_4 = arctangent(pt1, pt9)
+
+    feature_5 = arctangent(pt2, pt9)
+
+    feature_6 = arctangent(pt3, pt9)
+
+    feature_7 = arctangent(pt4, pt9)
+
+    feature_8 = arctangent(pt5, pt9)
+
+    feature_9 = arctangent(pt6, pt9)
+
+    feature_10 = arctangent(pt7, pt9)
+
+    feature_11 = arctangent(pt8, pt9)
+
+    # features 12 through 19 are the angles (radians)
+    # the points make with point 9, starting
+    # front the RIGHT ear.
+
+    feature_12 = arctangent(pt10, pt9)
+
+    feature_13 = arctangent(pt11, pt9)
+
+    feature_14 = arctangent(pt12, pt9)
+
+    feature_15 = arctangent(pt13, pt9)
+
+    feature_16 = arctangent(pt14, pt9)
+
+    feature_17 = arctangent(pt15, pt9)
+
+    feature_18 = arctangent(pt16, pt9)
+
+    feature_19 = arctangent(pt17, pt9)
 
     print(feature_4)
 
