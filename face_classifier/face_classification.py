@@ -8,17 +8,27 @@ from PIL import Image
 # Detect facial landmarks -- DONE
 # Process facial landmarks -- DONE
 # Extract needed features -- DONE
-# Need to find a data set
+# Need to find a data set -- DONE
+# Build the prediction model
+
+
 # Might need to do some image pre-processing
 
 
 # Description: 
 # Currently I have extracted 19 facial landmarks
 # I need to use this data to classify face into
-# a category (round, square, oval, etc)
+# a category (Heart, Round, Oblong, Oval, Square)
 # For example, round faces have values in some
 # ranges, square faces have values in a different
-# range, and so on. 
+# range, and so on.
+
+# The dataset I found online contined 4000 images
+# of celebrities that have one of the face shape 
+# categories. The dataset is subdivided into 5 subsets of
+# 800 each. Each subset corresponding to the respective
+# face shape category (Heart, Round, Oblong, Oval, Square).
+# This script was used to process the images and extract features.
 
 
 
@@ -158,7 +168,7 @@ for facial_landmarks in result.multi_face_landmarks:
 
     jawline_length = MeasureDistance(pt5, pt13)
 
-    featrue_2 = jawline_length / forehead_length
+    feature_2 = jawline_length / forehead_length
 
     mouth_chin_length = MeasureDistance(pt9, pt19)
 
