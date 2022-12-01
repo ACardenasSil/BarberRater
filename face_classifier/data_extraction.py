@@ -32,6 +32,7 @@ import glob
 # 800 each. Each subset corresponding to the respective
 # face shape category (Heart, Round, Oblong, Oval, Square).
 # This script was used to process the images and extract features.
+# The extracted data is written to a csv file
 
 
 
