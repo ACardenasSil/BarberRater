@@ -33,14 +33,23 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(
         title: Text(widget.title),
       ),
       body: Container(
+        width: 10,
         alignment: Alignment.center,
         padding: const EdgeInsets.all(32),
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage(
+                'assets/image/barber3.jpg',
+              ),
+              fit: BoxFit.cover),
+        ),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             const Card(
               child: Text(
@@ -55,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(6),
                     child: Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(5.0),
                       child: Stack(
                         children: <Widget>[
                           Positioned.fill(
@@ -89,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(6),
                     child: Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(5.0),
                       child: Stack(
                         children: <Widget>[
                           Positioned.fill(
@@ -123,7 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(6),
                     child: Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(5.0),
                       child: Stack(
                         children: <Widget>[
                           Positioned.fill(
