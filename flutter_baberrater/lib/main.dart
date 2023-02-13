@@ -1,4 +1,14 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
+
+
+/*
+import 'dart:convert';
+import 'dart:io';
+import 'package:image_picker/image_picker.dart';
+import 'package:http/http.dart' as http;
+*/
 
 void main() {
   runApp(const MyApp());
@@ -30,6 +40,43 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+  /*
+  
+  File? selectedImage;
+
+  String? message = "";
+
+  Future getImage1() async {
+    final pickedimage = await ImagePicker().getImage(source: ImageSource.gallery);
+    selectedImage = File(pickedimage!.path);
+    setState(() {});
+
+  
+  Future onUploadImage() async {
+    // http://108.226.199.32/test/
+    final request = http.MultipartRequest("POST", Uri.parse("http://localhost:5000"));
+
+
+    final headers = {"Content_Type": "multipart/form-data"};
+
+    request.files.add(http.MultipartFile('image', 
+      selectedImage!.readAsBytes().asStream(),selectedImage!.lengthSync(),
+      filename: selectedImage!.path.split("/").last));
+
+    request.headers.addAll(headers);
+    final response = await request.send();
+    http.Response res = await http.Response.fromStream(response);
+    final resJson = jsonDecode(res.body);
+    message = resJson['message'];
+    setState(() {});
+  }
+  }
+  */
+
+
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
