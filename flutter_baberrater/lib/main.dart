@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './screens/homescreen.dart';
+import '../widgets/background.dart';
 
 void main() {
   runApp(MyApp());
