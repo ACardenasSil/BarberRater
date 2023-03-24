@@ -31,6 +31,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^0.13.4
+  image_picker: ^0.8.4+11
   #http: ^0.13.3
   #image_picker: ^0.8.2
 
