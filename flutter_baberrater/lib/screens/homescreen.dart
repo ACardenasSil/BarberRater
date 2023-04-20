@@ -25,7 +25,7 @@ class homeScreen extends StatelessWidget {
                   height: 150,
                   child: const Center(
                     child: Text(
-                      '"Text to inspire you"',
+                      '"Barber Rater, let us help you find your barber."',
                       style: kHeading,
                     ),
                   ),

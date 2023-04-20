@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		BZRNEiOIPOrPBI8msd79kncPISU=
+		wtrtgCgN2kriNwoEoXLFYgb8hxs=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,15 +54,27 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		jF8Qd9AMmbKpCdtCZ72+UWuJTzg=
+		1F6bzeKwkfpYgzAcbj2vCa0sp60=
+		</data>
+		<key>Frameworks/App.framework/assets/images/barber1.png</key>
+		<data>
+		+fgeMj7RaEF1HYqZdZS2rm9Ac7s=
+		</data>
+		<key>Frameworks/App.framework/assets/images/barber2.png</key>
+		<data>
+		j2a2GgGVRCak3U0We9e0S/zKTxw=
 		</data>
 		<key>Frameworks/App.framework/assets/images/barber3.jpg</key>
 		<data>
 		AaDyIlR3rthDm1yvuGCcfhIX268=
 		</data>
+		<key>Frameworks/App.framework/assets/images/barber6.jpg</key>
+		<data>
+		KWJFKcJ0IFfBh3y7a7cJcCu8Oy0=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		jtPgr4yzeCAXhCwYWbslpSCYAEc=
+		6NXYwo9uPxq4Z08RTO/9yEPrC6s=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -82,7 +94,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		yXXo95YrDeqmmLyW7p60taTUSOI=
+		K/tjekBqUhIlYrBP3QxqZJdM918=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -98,7 +110,7 @@
 		</data>
 		<key>Frameworks/Flutter.framework/Flutter</key>
 		<data>
-		FavMQwp3ZZ5ZUus5vPtNp5Xf/r0=
+		y9Ru5e/1rNwhwWo1yiHsRPL8p0Y=
 		</data>
 		<key>Frameworks/Flutter.framework/Headers/Flutter.h</key>
 		<data>
@@ -166,7 +178,7 @@
 		</data>
 		<key>Frameworks/Flutter.framework/Info.plist</key>
 		<data>
-		VforGc93CdPBi8C04DvFAnsrT04=
+		6tfkLwvFlpugLn3SC29RVwNKQzM=
 		</data>
 		<key>Frameworks/Flutter.framework/Modules/module.modulemap</key>
 		<data>
@@ -174,7 +186,7 @@
 		</data>
 		<key>Frameworks/Flutter.framework/_CodeSignature/CodeResources</key>
 		<data>
-		U8mHiYBNSY9zJC7vYbr/GThjX7g=
+		0Dkbg3e2LUZCDBn5LOvheVutMPQ=
 		</data>
 		<key>Frameworks/Flutter.framework/icudtl.dat</key>
 		<data>
@@ -265,7 +277,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Tc+qJ50NrsWisL5zncLh9ag9PfxDHEFNF/+F+L9hUc=
+			0edvPjvrVHyhiGGeXZciPm/XdCrXpwFGXAIFHpqna14=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -279,7 +291,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n7hhDD8B8I/8cAhRG7WVucktljuaOE5A7pMlEsFR3q4=
+			qfLbOii9HIcpibUlBO1pcH+z8jNpjioCbLN+Zo24CVE=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/assets/images/barber1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BFVFkmxnaV4txQN5zS2rQn/dVaPuu12M5s2KjSAwAW4=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/assets/images/barber2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Nz12J03FqIPRltm/y23eUByxMQFUEwtSIWRDCp346lw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/assets/images/barber3.jpg</key>
@@ -289,11 +315,18 @@
 			ogxEoNGm716SVtcUHUFbrAYgMkasfY1xTjsujGUHNTc=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/assets/images/barber6.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			d4gbE5jsECt9+JqRV2kBwG+6q7fE3aTGeYt4Ea/ol4w=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LW5SM62cO8c20Mo/oXLkIhae5PgKetU/9iT2dYpXX18=
+			HrepXpYOHZaL4nhMHJ95LdzoYjjTSGA0kY22IsgPrWc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -328,7 +361,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o+wzgqrohDFHcZ0Dd01pu4aIwyeYflibJ07dFSJmEUs=
+			ve1OL9UtSYLkFFoI0Oey1FIrWsOKIFkU5mFRO9H3u80=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -356,7 +389,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0mV6iwbJx4c6nP9buduNE610KW7Zprd1zeSVOM8APXA=
+			MRO0yVkr/4io4wct57C9gEOTcdeSK+7eJZFuZxT9vxs=
 			</data>
 		</dict>
 		<key>Frameworks/Flutter.framework/Headers/Flutter.h</key>
@@ -475,7 +508,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F5nVOgUePOmUQt0LjjwMZu5IIpcNf52DKNyxRmzpipQ=
+			cqVoqK2/5Ne+LOAgDQoUjP43nwnD1vZV1wEGUmyvSnc=
 			</data>
 		</dict>
 		<key>Frameworks/Flutter.framework/Modules/module.modulemap</key>
@@ -489,7 +522,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oTV9+uD3n/xvkZSlHExlPnqNzxir6AhTwHOmAqeFef8=
+			FzlhgSj1urSX/ApzdnFABrqntJVeKtu9zrN8xUbIOhM=
 			</data>
 		</dict>
 		<key>Frameworks/Flutter.framework/icudtl.dat</key>

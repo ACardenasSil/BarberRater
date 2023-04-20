@@ -18,7 +18,6 @@ class _barber_signupState extends State<barber_signup> {
     return Scaffold(
       key: _scaffoldKey,
       appBar: AppBar(
-        title: Text('Barber Signup'),
         backgroundColor: Colors.blue,
         elevation: 0,
       ),

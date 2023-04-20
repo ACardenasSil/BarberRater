@@ -19,7 +19,7 @@ class barber_profile extends StatelessWidget {
                   flex: 3,
                   child: Container(
                     alignment: Alignment.center,
-                    color: Colors.amber,
+                    color: Color.fromARGB(255, 7, 255, 40),
                     child: Text('profile picture'),
                   ),
                 ),

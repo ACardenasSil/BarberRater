@@ -18,8 +18,7 @@ class _shop_signupState extends State<shop_signup> {
     return Scaffold(
       key: _scaffoldKey,
       appBar: AppBar(
-        title: Text('Barber Signup'),
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.blue,
         elevation: 0,
       ),
       backgroundColor: Color.fromARGB(255, 255, 255, 255),

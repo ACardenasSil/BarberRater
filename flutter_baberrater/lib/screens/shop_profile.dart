@@ -16,6 +16,9 @@ class shop_profile extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('shop profile'),
+          actions: [
+            IconButton(onPressed: () {}, icon: const Icon(Icons.settings))
+          ],
         ),
         body: Column(
           children: <Widget>[

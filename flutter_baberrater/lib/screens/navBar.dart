@@ -32,6 +32,12 @@ class _navBarState extends State<navBar> {
     return Scaffold(
       appBar: AppBar(
         title: Text(_pages[_selectedPageIndex]['title'] as String),
+        actions: [
+          if (_selectedPageIndex == 3)
+            IconButton(onPressed: () {}, icon: const Icon(Icons.settings)),
+          if (_selectedPageIndex == 0)
+            IconButton(onPressed: () {}, icon: const Icon(Icons.add)),
+        ],
       ),
       body: _pages[_selectedPageIndex]['page'] as Widget,
       bottomNavigationBar: BottomNavigationBar(
