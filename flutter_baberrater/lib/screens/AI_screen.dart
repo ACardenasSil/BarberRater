@@ -4,6 +4,9 @@ It might or might not be useful later.
 Currently it only runs on an android device or emolulator
 */
 
+import 'package:flutter/material.dart';
+
+
 import 'dart:convert';
 import 'dart:io';
 import 'dart:ui' as ui;
@@ -12,36 +15,28 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
 
-void main() {
-  runApp(const MyApp());
-}
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
 
+class AI_screen extends StatefulWidget {
+  const AI_screen({super.key});
+  //const AI_screen({Key? key, required this.title}) : super(key: key);
+
+  static const routeName = '/AI_Screen';
+
+  //final String title;
+
+  @override
+  State<AI_screen> createState() => _AI_screenState();
+  /*  
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Face Detection',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const AI_Page(title: 'Face Detection using API'),
-    );
+    return const Placeholder();
   }
+  */
 }
 
-class AI_Page extends StatefulWidget {
-  const AI_Page({Key? key, required this.title}) : super(key: key);
 
-  final String title;
-
-  @override
-  State<AI_Page> createState() => _AI_PageState();
-}
-
-class AI_PageState extends State<AI_Page> {
+class _AI_screenState extends State<AI_screen> {
   // Selected Image storing in a Variable
   File? _selectedImage;
 
@@ -83,9 +78,9 @@ class AI_PageState extends State<AI_Page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
+      //appBar: AppBar(
+        //title: Text(),
+      //),
       body: Center(
         child: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
@@ -105,7 +100,7 @@ class AI_PageState extends State<AI_Page> {
                       TextButton(
                           onPressed: () async {
                             final res = await uploadImage(
-                                File(_selectedImage!.path), "linktoserver/face_classifier");
+                                File(_selectedImage!.path), "calculon.cs.csubak.edu/home/juan");
                             debugPrint(res.body);
                             setState(() {});
                           },
