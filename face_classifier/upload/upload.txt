@@ -1,0 +1,2 @@
+This file is for testing. This will be were the photos will be
+uploaded. Once the photo is in this folder, the AI script should run.

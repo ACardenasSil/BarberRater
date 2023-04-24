@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import './screens/homescreen.dart';
 import '../widgets/background.dart';
@@ -11,6 +13,14 @@ import './screens/shop_profile.dart';
 import './screens/shop_signup.dart';
 import './screens/signup_signin_screen.dart';
 import './screens/navBar.dart';
+
+
+/*
+import 'dart:convert';
+import 'dart:io';
+import 'package:image_picker/image_picker.dart';
+import 'package:http/http.dart' as http;
+*/
 
 void main() {
   runApp(MyApp());
