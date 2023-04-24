@@ -67,8 +67,10 @@ class _AI_screenState extends State<AI_screen> {
   }
 
   Future<void> _addImage() async {
-    final image =
-        await ImagePicker.platform.pickImage(source: ImageSource.gallery);
+    final image = await ImagePicker.platform.pickImage(
+          source: ImageSource.gallery,
+          imageQuality: 60,
+    );
     if (image != null) {
       _selectedImage = File(image.path);
     }
@@ -100,7 +102,7 @@ class _AI_screenState extends State<AI_screen> {
                       TextButton(
                           onPressed: () async {
                             final res = await uploadImage(
-                                File(_selectedImage!.path), "calculon.cs.csubak.edu/home/juan");
+                                File(_selectedImage!.path), "https://calculon.cs.csubak.edu/alonso/image/");
                             debugPrint(res.body);
                             setState(() {});
                           },
