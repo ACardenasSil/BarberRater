@@ -10,6 +10,10 @@ class barber_profile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Barber'),
+      ),
+      backgroundColor: Colors.blue,
       body: Column(
         children: <Widget>[
           Expanded(
@@ -24,7 +28,7 @@ class barber_profile extends StatelessWidget {
               ),
               child: TextButton(
                 onPressed: () {
-                  Navigator.of(context).pushNamed(shop_profile.routeName);
+                  Navigator.pop(context);
                 },
                 child: Text(
                   '',
@@ -53,6 +57,11 @@ class barber_profile extends StatelessWidget {
                             fit: BoxFit.fitWidth),
                         color: Colors.blueAccent),
                   ),
+                ),
+                const VerticalDivider(
+                  width: 3,
+                  thickness: 15,
+                  color: Colors.black,
                 ),
                 Expanded(
                   child: Container(
@@ -173,7 +182,7 @@ class barber_profile extends StatelessWidget {
           //   ),
           // ),
           Expanded(
-            flex: 5,
+            flex: 6,
             child: ListView(
               children: const <Widget>[
                 ListTile(
