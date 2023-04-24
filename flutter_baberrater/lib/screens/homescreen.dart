@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_baberrater/palatte.dart';
+import 'signup_signin_screen.dart';
 
 class homeScreen extends StatelessWidget {
   @override
@@ -22,14 +23,14 @@ class homeScreen extends StatelessWidget {
               children: [
                 Container(
                   height: 150,
-                  child: Center(
+                  child: const Center(
                     child: Text(
-                      '"Text to inspire you"',
+                      '"Barber Rater, let us help you find your barber."',
                       style: kHeading,
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 400,
                 ),
                 Column(
@@ -41,7 +42,10 @@ class homeScreen extends StatelessWidget {
                           color: Colors.blue,
                           borderRadius: BorderRadius.circular(2000)),
                       child: ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.of(context)
+                              .pushReplacementNamed(signup_signin.routeName);
+                        },
                         child: const Padding(
                           padding: EdgeInsets.symmetric(vertical: 8.0),
                           child: Text(
