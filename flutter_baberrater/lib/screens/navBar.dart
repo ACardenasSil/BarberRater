@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_baberrater/widgets/addpostModal.dart';
 import './AI_screen.dart';
 import './barber_profile.dart';
+import './shop_profile.dart';
 import './map.dart';
 import './feed.dart';
 
@@ -18,13 +20,17 @@ class _navBarState extends State<navBar> {
     {'page': feed_Screen(), 'title': 'FEED'},
     {'page': AI_screen(), 'title': 'AI'},
     {'page': map_Screen(), 'title': 'MAP'},
-    {'page': barber_profile(), 'title': 'PROFILE'}
+    {'page': shop_profile(), 'title': 'PROFILE'}
   ];
   int _selectedPageIndex = 0;
   void _selectPage(int index) {
     setState(() {
       _selectedPageIndex = index;
     });
+  }
+
+  void _openAddPostOverlay() {
+    showModalBottomSheet(context: context, builder: (ctx) => addPost());
   }
 
   @override
@@ -36,7 +42,11 @@ class _navBarState extends State<navBar> {
           if (_selectedPageIndex == 3)
             IconButton(onPressed: () {}, icon: const Icon(Icons.settings)),
           if (_selectedPageIndex == 0)
-            IconButton(onPressed: () {}, icon: const Icon(Icons.add)),
+            IconButton(
+                onPressed: () {
+                  _openAddPostOverlay();
+                },
+                icon: const Icon(Icons.add)),
         ],
       ),
       body: _pages[_selectedPageIndex]['page'] as Widget,

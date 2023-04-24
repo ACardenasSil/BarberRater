@@ -24,9 +24,53 @@
 		<data>
 		KWJFKcJ0IFfBh3y7a7cJcCu8Oy0=
 		</data>
+		<key>assets/images/barberemp1.jpeg</key>
+		<data>
+		9RjBn8ub7HwDj0gzMtcrI9LLLlE=
+		</data>
+		<key>assets/images/barberemp2.jpeg</key>
+		<data>
+		Vk8cOcYPjAPTfuKEHeoOTSSsgOo=
+		</data>
+		<key>assets/images/barberemp3.jpeg</key>
+		<data>
+		NvCr31/lDSfsr2JzSoAnXIe4dJM=
+		</data>
+		<key>assets/images/barberemp4.jpeg</key>
+		<data>
+		SUUuJFUGxrrmm0d36YRaRqNjztI=
+		</data>
+		<key>assets/images/barberemp5.jpg</key>
+		<data>
+		dfm63H89hGhc6wI47+m26AcSI50=
+		</data>
+		<key>assets/images/haircut1.jpg</key>
+		<data>
+		q6gs9zOWzjn62XATkSZqr3l6UvQ=
+		</data>
+		<key>assets/images/haircut2.jpg</key>
+		<data>
+		PK+wCsJt1iDIsdudWjJY2Wn1BnA=
+		</data>
+		<key>assets/images/haircut3.jpg</key>
+		<data>
+		XAAFc1Wb0o9PPOOD14LJAq7+ZgA=
+		</data>
+		<key>assets/images/haircut4.jpg</key>
+		<data>
+		ylO5Td+p2xWcm9TogT3fXs/RbBs=
+		</data>
+		<key>assets/images/haircut5.jpg</key>
+		<data>
+		FFZQZY9f94KqHd1SxwXweQdc5Qs=
+		</data>
+		<key>assets/images/shop1.jpeg</key>
+		<data>
+		66asAn0RQJrYxq5BEc7NX0jELyc=
+		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		6NXYwo9uPxq4Z08RTO/9yEPrC6s=
+		PKB7QGG4dD+Hv3u3SORc5lhvIzk=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -46,7 +90,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		K/tjekBqUhIlYrBP3QxqZJdM918=
+		7aC2DfcTuawz4IlFs3Tgy5UlHbM=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -91,11 +135,88 @@
 			d4gbE5jsECt9+JqRV2kBwG+6q7fE3aTGeYt4Ea/ol4w=
 			</data>
 		</dict>
+		<key>assets/images/barberemp1.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FGcKxlWRLCgxCP0aUjW1wUwHWB5mjFidPjLou8c117c=
+			</data>
+		</dict>
+		<key>assets/images/barberemp2.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BrKxok0QsHjXKkS6Xh/C91Cj589cON0LYs14U6Cn7sM=
+			</data>
+		</dict>
+		<key>assets/images/barberemp3.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6wtJQOkoj9Q5teqTfPAgPESPZSXLQC48wMTf2qXs8Co=
+			</data>
+		</dict>
+		<key>assets/images/barberemp4.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ttxSP+vAbRZd3IZYSwqSL3zObyzY+6HbUA1XoKUJDqE=
+			</data>
+		</dict>
+		<key>assets/images/barberemp5.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FttCVcH3O7kaCaW7ZVpR6bkq94lilcs3wH605J+Kpak=
+			</data>
+		</dict>
+		<key>assets/images/haircut1.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x0KBnkwoY1YCoHucWc8t0v3vjtvQdSt+P9K6fzgQu14=
+			</data>
+		</dict>
+		<key>assets/images/haircut2.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AiSqqPJzWOdUAa6KE5WGoKuhc6o1hFVZT14MyM7PXek=
+			</data>
+		</dict>
+		<key>assets/images/haircut3.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EsxLcZCgAdvrzpJLVJTWJAY3KxA8dhv6xMVGVJKtmeM=
+			</data>
+		</dict>
+		<key>assets/images/haircut4.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aNiSGVsAVnYYZGZraOB5C5slmIXXRYKAbT8aMgVd5/E=
+			</data>
+		</dict>
+		<key>assets/images/haircut5.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BDIPt5rhwhmfyu6VtnBamL9nfrJiUdGZPaIDzZh5HmM=
+			</data>
+		</dict>
+		<key>assets/images/shop1.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u2bFzeYl22CXFu3HpP5atOVhCkZT34/7IiSfyvuS/rI=
+			</data>
+		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HrepXpYOHZaL4nhMHJ95LdzoYjjTSGA0kY22IsgPrWc=
+			denDAjcyiiVMwhATGtWbYbjwww2lIFM1qXbAeFpJthM=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -130,7 +251,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ve1OL9UtSYLkFFoI0Oey1FIrWsOKIFkU5mFRO9H3u80=
+			D+k/yP3xxOhsYOtfjhURbVIQHtGLSanvSetMjhLgrn4=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

@@ -16,11 +16,11 @@ class _PasswordModalState extends State<PasswordModal> {
       padding: const EdgeInsets.all(16),
       child: Column(
         children: [
-          TextField(
+          const TextField(
             maxLength: 50,
             decoration: InputDecoration(label: Text('Username')),
           ),
-          TextField(
+          const TextField(
             maxLength: 50,
             decoration: InputDecoration(label: Text('Password')),
           ),
@@ -29,7 +29,7 @@ class _PasswordModalState extends State<PasswordModal> {
               onPressed: () {
                 Navigator.of(context).pushReplacementNamed(navBar.routeName);
               },
-              child: Text('test'))
+              child: const Text('SignIN'))
         ],
       ),
     );
