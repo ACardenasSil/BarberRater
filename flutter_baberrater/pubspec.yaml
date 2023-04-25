@@ -31,8 +31,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  #http: ^0.13.3
-  #image_picker: ^0.8.2
+  http: 
+  image_picker: 
+  path_provider:
+  intl:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -63,25 +65,30 @@ flutter:
 
   assets:
     
-    - ../assets/images/barber3.jpg
-    - ../assets/images/barber6.jpg
-    - ../assets/images/barber2.png
-    - ../assets/images/barber1.png
+    - ./assets/images/barber3.jpg
+    - ./assets/images/barber6.jpg
+    - ./assets/images/barber2.png
+    - ./assets/images/barber1.png
 
-    - ../assets/images/barberemp1.jpeg
-    - ../assets/images/barberemp2.jpeg
-    - ../assets/images/barberemp3.jpeg
-    - ../assets/images/barberemp4.jpeg
-    - ../assets/images/barberemp5.jpg
+    - ./assets/images/barberemp1.jpeg
+    - ./assets/images/barberemp2.jpeg
+    - ./assets/images/barberemp3.jpeg
+    - ./assets/images/barberemp4.jpeg
+    - ./assets/images/barberemp5.jpg
 
-    - ../assets/images/haircut1.jpg
-    - ../assets/images/haircut2.jpg
-    - ../assets/images/haircut3.jpg
-    - ../assets/images/haircut4.jpg
-    - ../assets/images/haircut5.jpg
+    - ./assets/images/haircut1.jpg
+    - ./assets/images/haircut2.jpg
+    - ./assets/images/haircut3.jpg
+    - ./assets/images/haircut4.jpg
+    - ./assets/images/haircut5.jpg
 
-    - ../assets/images/shop1.jpeg
-    - ../assets/images/shop2.jpg
+    - ./assets/images/shop1.jpeg
+    - ./assets/images/shop2.jpg
+
+    - ./assets/images/postpic1.jpg
+    - ./assets/images/postpic2.jpg
+
+
     # - ../assets/images/barber1.png
 
 

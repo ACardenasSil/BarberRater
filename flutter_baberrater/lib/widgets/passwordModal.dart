@@ -27,6 +27,7 @@ class _PasswordModalState extends State<PasswordModal> {
           // ignore: prefer_const_constructors
           TextButton(
               onPressed: () {
+                Navigator.of(context).pop();
                 Navigator.of(context).pushReplacementNamed(navBar.routeName);
               },
               child: const Text('SignIN'))

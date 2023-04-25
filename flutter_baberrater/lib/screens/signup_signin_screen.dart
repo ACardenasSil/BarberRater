@@ -29,7 +29,7 @@ class signup_signin extends StatelessWidget {
               height: 200,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage("../assets/images/barber2.png"),
+                    image: AssetImage("./assets/images/barber2.png"),
                     fit: BoxFit.fitWidth),
               ),
               child: TextButton(
@@ -50,7 +50,7 @@ class signup_signin extends StatelessWidget {
               height: 200,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage("../assets/images/barber6.jpg"),
+                    image: AssetImage("./assets/images/barber6.jpg"),
                     fit: BoxFit.fitWidth),
               ),
               child: TextButton(
@@ -72,7 +72,7 @@ class signup_signin extends StatelessWidget {
               height: 200,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage("../assets/images/barber1.png"),
+                    image: AssetImage("./assets/images/barber1.png"),
                     fit: BoxFit.fitWidth),
               ),
               child: TextButton(

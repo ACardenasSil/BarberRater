@@ -47,7 +47,7 @@ class shop_profile extends StatelessWidget {
                     alignment: Alignment.center,
                     decoration: const BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage("../assets/images/shop2.jpg"),
+                            image: AssetImage("./assets/images/shop2.jpg"),
                             fit: BoxFit.fitWidth),
                         color: Colors.blueAccent),
                   ),
@@ -84,7 +84,7 @@ class shop_profile extends StatelessWidget {
                   width: 300,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/barberemp1.jpeg"),
+                          image: AssetImage("./assets/images/barberemp1.jpeg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                   child: TextButton(
@@ -111,7 +111,7 @@ class shop_profile extends StatelessWidget {
                   width: 300,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/barberemp2.jpeg"),
+                          image: AssetImage("./assets/images/barberemp2.jpeg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                   child: TextButton(
@@ -138,7 +138,7 @@ class shop_profile extends StatelessWidget {
                   width: 300,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/barberemp3.jpeg"),
+                          image: AssetImage("./assets/images/barberemp3.jpeg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                   child: TextButton(
@@ -165,7 +165,7 @@ class shop_profile extends StatelessWidget {
                   width: 300,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/barberemp4.jpeg"),
+                          image: AssetImage("./assets/images/barberemp4.jpeg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                   child: TextButton(
@@ -192,7 +192,7 @@ class shop_profile extends StatelessWidget {
                   width: 300,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/barberemp5.jpg"),
+                          image: AssetImage("./assets/images/barberemp5.jpg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                   child: TextButton(

@@ -1,6 +1,5 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
+import 'package:flutter_baberrater/widgets/addpostModal.dart';
 import './screens/homescreen.dart';
 import '../widgets/background.dart';
 import './screens/AI_screen.dart';
@@ -13,7 +12,7 @@ import './screens/shop_profile.dart';
 import './screens/shop_signup.dart';
 import './screens/signup_signin_screen.dart';
 import './screens/navBar.dart';
-
+import './models/posts.dart';
 
 /*
 import 'dart:convert';
@@ -47,7 +46,7 @@ class MyApp extends StatelessWidget {
         shop_profile.routeName: (ctx) => shop_profile(),
         shop_signup.routeName: (ctx) => shop_signup(),
         signup_signin.routeName: (ctx) => signup_signin(),
-        navBar.routeName: (ctx) => navBar()
+        navBar.routeName: (ctx) => navBar(),
       },
     );
   }
