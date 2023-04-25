@@ -31,8 +31,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  #http: ^0.13.3
-  #image_picker: ^0.8.2
+  http: ^0.13.3
+  image_picker: ^0.8.2
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -82,6 +82,40 @@ flutter:
 
     - ../assets/images/shop1.jpeg
     - ../assets/images/shop2.jpg
+    # - ../assets/images/barber1.png
+    
+    # Diamond
+    - ./assets/images/styles/male/Adam Levine.jpg
+    - ./assets/images/styles/male/George Clooney.jpg
+    - ./assets/images/styles/male/Matt Damon.jpg
+
+    # Square
+    - ./assets/images/styles/male/Brad Pitt.jpg
+    - ./assets/images/styles/male/Liev Schreiber.jpg
+
+    # Round
+    - ./assets/images/styles/male/Aziz Ansari.jpg
+    - ./assets/images/styles/male/Elijah Wood.jpg
+
+    # Oblong
+    - ./assets/images/styles/male/Keanu Reeves.jpg
+    - ./assets/images/styles/male/John Krasinski.jpg
+
+    # Retangle
+    - ./assets/images/styles/male/Adam Driver.jpg
+    - ./assets/images/styles/male/Rege Jean Page.jpg
+
+    # Oval
+    - ./assets/images/styles/male/Jake Gyllenhaal.jpg
+    - ./assets/images/styles/male/Ryan Reynolds.jpg
+    - ./assets/images/styles/male/The Rock.jpg
+
+    # Heart
+    - ./assets/images/styles/male/Chris Pine.jpg
+
+    # Pear
+    - ./assets/images/styles/male/Jonah Hill.jpg
+    - ./assets/images/styles/male/Kevin Bacon.jpg
     # - ../assets/images/barber1.png
 
 
