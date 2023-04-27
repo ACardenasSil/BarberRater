@@ -330,6 +330,13 @@
       "moduleName": "flutter_baberrater"
     },
     {
+      "kind": "Import",
+      "name": "path_provider_foundation",
+      "printedName": "path_provider_foundation",
+      "declKind": "Import",
+      "moduleName": "flutter_baberrater"
+    },
+    {
       "kind": "Function",
       "name": "RegisterGeneratedPlugins",
       "printedName": "RegisterGeneratedPlugins(registry:)",

@@ -92,6 +92,30 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "google_maps_flutter",
+      "rootUri": "file:///Users/edgarrosales/.pub-cache/hosted/pub.dev/google_maps_flutter-2.2.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "google_maps_flutter_android",
+      "rootUri": "file:///Users/edgarrosales/.pub-cache/hosted/pub.dev/google_maps_flutter_android-2.4.12",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "google_maps_flutter_ios",
+      "rootUri": "file:///Users/edgarrosales/.pub-cache/hosted/pub.dev/google_maps_flutter_ios-2.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "google_maps_flutter_platform_interface",
+      "rootUri": "file:///Users/edgarrosales/.pub-cache/hosted/pub.dev/google_maps_flutter_platform_interface-2.2.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "http",
       "rootUri": "file:///Users/edgarrosales/.pub-cache/hosted/pub.dev/http-0.13.5",
       "packageUri": "lib/",
@@ -254,6 +278,12 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "stream_transform",
+      "rootUri": "file:///Users/edgarrosales/.pub-cache/hosted/pub.dev/stream_transform-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "string_scanner",
       "rootUri": "file:///Users/edgarrosales/.pub-cache/hosted/pub.dev/string_scanner-1.2.0",
       "packageUri": "lib/",
@@ -302,7 +332,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-04-25T05:49:19.360899Z",
+  "generated": "2023-04-26T18:28:31.655424Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }
