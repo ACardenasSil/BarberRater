@@ -16,6 +16,11 @@ class barber_profile extends StatelessWidget {
       backgroundColor: Colors.blue,
       body: Column(
         children: <Widget>[
+          const Divider(
+            height: 8,
+            thickness: 10,
+            color: Colors.black,
+          ),
           Expanded(
             flex: 5,
             child: Container(
@@ -91,7 +96,7 @@ class barber_profile extends StatelessWidget {
             color: Colors.black,
           ),
           Expanded(
-            flex: 8,
+            flex: 5,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: <Widget>[
@@ -133,8 +138,8 @@ class barber_profile extends StatelessWidget {
                       color: Colors.blueAccent),
                 ),
                 const VerticalDivider(
-                  width: 10,
-                  thickness: 8,
+                  width: 3,
+                  thickness: 15,
                   color: Colors.black,
                 ),
                 Container(
@@ -147,7 +152,7 @@ class barber_profile extends StatelessWidget {
                       color: Colors.blueAccent),
                 ),
                 const VerticalDivider(
-                  width: 10,
+                  width: 3,
                   thickness: 15,
                   color: Colors.black,
                 ),
@@ -161,7 +166,7 @@ class barber_profile extends StatelessWidget {
                       color: Colors.blueAccent),
                 ),
                 const VerticalDivider(
-                  width: 10,
+                  width: 3,
                   thickness: 15,
                   color: Colors.black,
                 ),
@@ -198,7 +203,7 @@ class barber_profile extends StatelessWidget {
           ),
 
           Expanded(
-            flex: 6,
+            flex: 5,
             child: ListView(
               children: const <Widget>[
                 ListTile(
@@ -208,7 +213,7 @@ class barber_profile extends StatelessWidget {
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   subtitle: Text(
-                      'Came through to this barbershop on a whim since Im from the Bay Area and I dont know any shops around here and man oh man am I impressed! Benzo was the man, took me in on a walk-in, and this dude HOOKED IT UP!! Left me feeling fucking fresh and we talked about life, goals, and aspirations -- honestly a super down to earth dude and a super classy barber.'),
+                      'Came through to this barbershop on a whim since Im from the Bay Area and I dont know any shops around here and man oh man am I impressed! Benzo was the man, took me in on a walk-in, and this dude HOOKED IT UP!! Left me feeling fresh and we talked about life, goals, and aspirations -- honestly a super down to earth dude and a super classy barber.'),
                 ),
                 Divider(
                   height: 8,

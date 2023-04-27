@@ -15,6 +15,7 @@ class addPost extends StatefulWidget {
   State<addPost> createState() => _addPostState();
 }
 
+// ignore: camel_case_types
 class _addPostState extends State<addPost> {
   File? _image;
   final _descriptioncontroller = TextEditingController();
@@ -22,13 +23,13 @@ class _addPostState extends State<addPost> {
   Future getImage(ImageSource source) async {
     try {
       final image = await ImagePicker().pickImage(source: source);
-      if (image == null) return;
+      if (image == null) return print('failed');
 
       final imageTemporaty = File(image.path);
       //final imagePermanent = await saveFilePermenently(image.path);
 
       setState(() {
-        this._image = imageTemporaty;
+        _image = imageTemporaty;
       });
     } on PlatformException catch (e) {
       print('Failed to pick image');
@@ -66,7 +67,11 @@ class _addPostState extends State<addPost> {
                     height: 100,
                     fit: BoxFit.cover,
                   )
-                : Image.network('https://picsum.photos/250?image=9'),
+                : Image.network(
+                    'https://picsum.photos/250?image=9',
+                    height: 100,
+                    width: 100,
+                  ),
             CustomButton(
               title: 'Pick from Gallery',
               icon: Icons.image_outlined,

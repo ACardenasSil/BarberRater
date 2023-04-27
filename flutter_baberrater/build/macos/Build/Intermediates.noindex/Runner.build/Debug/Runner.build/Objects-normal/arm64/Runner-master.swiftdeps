@@ -1,9 +1,9 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "d587bc40a4a75e5d4ae77b2063253da7ef624d0b6946f6e8c2da19257daccb25"
-build_start_time: [1682546998, 618953943]
-build_end_time: [1682546998, 953634023]
+build_start_time: [1682614455, 178150177]
+build_end_time: [1682614455, 484663009]
 inputs:
   ? "/Users/edgarrosales/Desktop/CSUB_COURSEWORK/Spring23/BarberRater/flutter_baberrater/macos/Flutter/GeneratedPluginRegistrant.swift"
-  : [1682546992, 288950920]
+  : [1682614445, 794447898]
   "/Users/edgarrosales/Desktop/CSUB_COURSEWORK/Spring23/BarberRater/flutter_baberrater/macos/Runner/AppDelegate.swift": [1676704007, 225676059]
   "/Users/edgarrosales/Desktop/CSUB_COURSEWORK/Spring23/BarberRater/flutter_baberrater/macos/Runner/MainFlutterWindow.swift": [1676704007, 228045225]

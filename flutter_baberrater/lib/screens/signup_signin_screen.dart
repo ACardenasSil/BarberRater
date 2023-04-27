@@ -95,7 +95,7 @@ class signup_signin extends StatelessWidget {
                 //Navigator.of(context).pushReplacementNamed(navBar.routeName);
               },
               child: const Text(
-                'SignIN',
+                'Sign In',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
               ),
             ),

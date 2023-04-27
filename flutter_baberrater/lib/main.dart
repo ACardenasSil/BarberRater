@@ -4,6 +4,10 @@ import './screens/homescreen.dart';
 import '../widgets/background.dart';
 import './screens/AI_screen.dart';
 import './screens/barber_profile.dart';
+import './screens/barber_profile2.dart';
+import './screens/barber_profile3.dart';
+import './screens/barber_profile4.dart';
+import './screens/barber_profile5.dart';
 import './screens/barber_signup.dart';
 import './screens/customer_signup.dart';
 import './screens/feed.dart';
@@ -39,6 +43,10 @@ class MyApp extends StatelessWidget {
       routes: {
         AI_screen.routeName: (ctx) => const AI_screen(),
         barber_profile.routeName: (ctx) => barber_profile(),
+        barber_profile2.routeName: (ctx) => barber_profile2(),
+        barber_profile3.routeName: (ctx) => barber_profile3(),
+        barber_profile4.routeName: (ctx) => barber_profile4(),
+        barber_profile5.routeName: (ctx) => barber_profile5(),
         barber_signup.routeName: (ctx) => barber_signup(),
         customer_signup.routeName: (ctx) => customer_signup(),
         feed_Screen.routeName: (ctx) => feed_Screen(),

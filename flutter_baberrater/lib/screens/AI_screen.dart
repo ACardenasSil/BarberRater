@@ -6,7 +6,6 @@ Currently it only runs on an android device or emolulator
 
 import 'package:flutter/material.dart';
 
-
 import 'dart:convert';
 import 'dart:io';
 import 'dart:ui' as ui;
@@ -14,8 +13,6 @@ import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
-
-
 
 class AI_screen extends StatefulWidget {
   const AI_screen({super.key});
@@ -34,7 +31,6 @@ class AI_screen extends StatefulWidget {
   }
   */
 }
-
 
 class _AI_screenState extends State<AI_screen> {
   // Selected Image storing in a Variable
@@ -67,8 +63,10 @@ class _AI_screenState extends State<AI_screen> {
   }
 
   Future<void> _addImage() async {
-    final image =
-        await ImagePicker.platform.pickImage(source: ImageSource.gallery);
+    final image = await ImagePicker.platform.pickImage(
+      source: ImageSource.gallery,
+      imageQuality: 60,
+    );
     if (image != null) {
       _selectedImage = File(image.path);
     }
@@ -79,7 +77,7 @@ class _AI_screenState extends State<AI_screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       //appBar: AppBar(
-        //title: Text(),
+      //title: Text(),
       //),
       body: Center(
         child: SingleChildScrollView(
@@ -100,12 +98,12 @@ class _AI_screenState extends State<AI_screen> {
                       TextButton(
                           onPressed: () async {
                             final res = await uploadImage(
-                                File(_selectedImage!.path), "calculon.cs.csubak.edu/home/juan");
+                                File(_selectedImage!.path),
+                                "https://calculon.cs.csubak.edu/alonso/image/");
                             debugPrint(res.body);
                             setState(() {});
                           },
                           child: const Text("Upload Image")),
-               
                     ],
                   ),
               ]),
