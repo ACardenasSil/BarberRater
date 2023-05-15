@@ -50,7 +50,7 @@ class _customer_signupState extends State<customer_signup> {
                 validator: (value) {
                   if (value!.isEmpty ||
                       !RegExp(r'^[a-z A-Z]+$').hasMatch(value)) {
-                    return "Please enter a Vaild Name";
+                    return "Please enter a valid Name";
                   } else {
                     return null;
                   }
@@ -66,7 +66,7 @@ class _customer_signupState extends State<customer_signup> {
                 validator: (value) {
                   if (value!.isEmpty ||
                       !RegExp(r'^[a-z A-Z 0-9]+$').hasMatch(value)) {
-                    return "Please enter a vaild username";
+                    return "Please enter a valid username";
                   } else {
                     return null;
                   }
@@ -83,7 +83,7 @@ class _customer_signupState extends State<customer_signup> {
                   if (value!.isEmpty ||
                       !RegExp(r'^[\w-\.]+@([\w-]+/.)+[\w{2,4}]$')
                           .hasMatch(value)) {
-                    return "Please enter a vaild Email Address";
+                    return "Please enter a valid Email Address";
                   } else {
                     return null;
                   }
@@ -100,7 +100,7 @@ class _customer_signupState extends State<customer_signup> {
                   if (value!.isEmpty ||
                       !RegExp(r'^[+]*[(]{0,1}][0-9][1,3][)]{0,1}[-\s\./0-9]+$')
                           .hasMatch(value)) {
-                    return "Please enter a vaild Phone Number";
+                    return "Please enter a valid Phone Number";
                   } else {
                     return null;
                   }
@@ -116,7 +116,7 @@ class _customer_signupState extends State<customer_signup> {
                 validator: (value) {
                   if (value!.isEmpty ||
                       !RegExp(r'^[a-z A-Z 0-9]+$').hasMatch(value)) {
-                    return "Please enter a vaild Address";
+                    return "Please enter a valid Address";
                   } else {
                     return null;
                   }
