@@ -1,0 +1,4 @@
+#Wed Apr 26 14:52:36 MST 2023
+base.0=/Users/edgarrosales/Desktop/CSUB_COURSEWORK/Spring23/BarberRater/flutter_baberrater/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

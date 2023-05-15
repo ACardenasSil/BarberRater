@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_baberrater/widgets/addpostModal.dart';
 import './AI_screen.dart';
-import './barber_profile.dart';
 import './shop_profile.dart';
 import './map.dart';
 import './feed.dart';
+import '../models/posts.dart';
+import 'dart:io';
 
 class navBar extends StatefulWidget {
   const navBar({super.key});
@@ -29,10 +30,6 @@ class _navBarState extends State<navBar> {
     });
   }
 
-  void _openAddPostOverlay() {
-    showModalBottomSheet(context: context, builder: (ctx) => addPost());
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,12 +38,12 @@ class _navBarState extends State<navBar> {
         actions: [
           if (_selectedPageIndex == 3)
             IconButton(onPressed: () {}, icon: const Icon(Icons.settings)),
-          if (_selectedPageIndex == 0)
-            IconButton(
-                onPressed: () {
-                  _openAddPostOverlay();
-                },
-                icon: const Icon(Icons.add)),
+          // if (_selectedPageIndex == 0)
+          //   IconButton(
+          //       onPressed: () {
+          //         _openAddPostOverlay(context);
+          //       },
+          //       icon: const Icon(Icons.add)),
         ],
       ),
       body: _pages[_selectedPageIndex]['page'] as Widget,

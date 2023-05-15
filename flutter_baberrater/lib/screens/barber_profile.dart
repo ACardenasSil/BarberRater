@@ -16,6 +16,11 @@ class barber_profile extends StatelessWidget {
       backgroundColor: Colors.blue,
       body: Column(
         children: <Widget>[
+          const Divider(
+            height: 8,
+            thickness: 10,
+            color: Colors.black,
+          ),
           Expanded(
             flex: 5,
             child: Container(
@@ -23,12 +28,12 @@ class barber_profile extends StatelessWidget {
               height: 200,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage("../assets/images/shop1.jpeg"),
+                    image: AssetImage("./assets/images/shop1.jpeg"),
                     fit: BoxFit.fitWidth),
               ),
               child: TextButton(
                 onPressed: () {
-                  Navigator.pop(context);
+                  Navigator.of(context).pushNamed(barber_profile.routeName);
                 },
                 child: Text(
                   '',
@@ -41,8 +46,13 @@ class barber_profile extends StatelessWidget {
               ),
             ),
           ),
+          const Divider(
+            height: 8,
+            thickness: 10,
+            color: Colors.black,
+          ),
           Expanded(
-            flex: 5,
+            flex: 4,
             child: Row(
               children: <Widget>[
                 Expanded(
@@ -53,7 +63,7 @@ class barber_profile extends StatelessWidget {
                     decoration: const BoxDecoration(
                         image: DecorationImage(
                             image:
-                                AssetImage("../assets/images/barberemp1.jpeg"),
+                                AssetImage("./assets/images/barberemp1.jpeg"),
                             fit: BoxFit.fitWidth),
                         color: Colors.blueAccent),
                   ),
@@ -80,8 +90,13 @@ class barber_profile extends StatelessWidget {
               ],
             ),
           ),
+          const Divider(
+            height: 8,
+            thickness: 10,
+            color: Colors.black,
+          ),
           Expanded(
-            flex: 8,
+            flex: 5,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: <Widget>[
@@ -90,7 +105,7 @@ class barber_profile extends StatelessWidget {
                   width: 200,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/haircut1.jpg"),
+                          image: AssetImage("./assets/images/haircut1.jpg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                 ),
@@ -104,7 +119,7 @@ class barber_profile extends StatelessWidget {
                   width: 200,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/haircut2.jpg"),
+                          image: AssetImage("./assets/images/haircut2.jpg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                 ),
@@ -118,26 +133,12 @@ class barber_profile extends StatelessWidget {
                   width: 200,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/haircut3.jpg"),
+                          image: AssetImage("./assets/images/haircut3.jpg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                 ),
                 const VerticalDivider(
-                  width: 10,
-                  thickness: 8,
-                  color: Colors.black,
-                ),
-                Container(
-                  height: 300,
-                  width: 200,
-                  decoration: const BoxDecoration(
-                      image: DecorationImage(
-                          image: AssetImage("../assets/images/haircut4.jpg"),
-                          fit: BoxFit.fitWidth),
-                      color: Colors.blueAccent),
-                ),
-                const VerticalDivider(
-                  width: 10,
+                  width: 3,
                   thickness: 15,
                   color: Colors.black,
                 ),
@@ -146,12 +147,26 @@ class barber_profile extends StatelessWidget {
                   width: 200,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/haircut5.jpg"),
+                          image: AssetImage("./assets/images/haircut4.jpg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                 ),
                 const VerticalDivider(
-                  width: 10,
+                  width: 3,
+                  thickness: 15,
+                  color: Colors.black,
+                ),
+                Container(
+                  height: 300,
+                  width: 200,
+                  decoration: const BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage("./assets/images/haircut5.jpg"),
+                          fit: BoxFit.fitWidth),
+                      color: Colors.blueAccent),
+                ),
+                const VerticalDivider(
+                  width: 3,
                   thickness: 15,
                   color: Colors.black,
                 ),
@@ -181,8 +196,14 @@ class barber_profile extends StatelessWidget {
           //     ),
           //   ),
           // ),
+          const Divider(
+            height: 8,
+            thickness: 10,
+            color: Colors.black,
+          ),
+
           Expanded(
-            flex: 6,
+            flex: 5,
             child: ListView(
               children: const <Widget>[
                 ListTile(
@@ -192,7 +213,12 @@ class barber_profile extends StatelessWidget {
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   subtitle: Text(
-                      'Came through to this barbershop on a whim since Im from the Bay Area and I dont know any shops around here and man oh man am I impressed! Benzo was the man, took me in on a walk-in, and this dude HOOKED IT UP!! Left me feeling fucking fresh and we talked about life, goals, and aspirations -- honestly a super down to earth dude and a super classy barber.'),
+                      'Came through to this barbershop on a whim since Im from the Bay Area and I dont know any shops around here and man oh man am I impressed! Benzo was the man, took me in on a walk-in, and this dude HOOKED IT UP!! Left me feeling fresh and we talked about life, goals, and aspirations -- honestly a super down to earth dude and a super classy barber.'),
+                ),
+                Divider(
+                  height: 8,
+                  thickness: 10,
+                  color: Colors.black,
                 ),
                 ListTile(
                   tileColor: Color.fromARGB(255, 25, 98, 243),
@@ -202,6 +228,11 @@ class barber_profile extends StatelessWidget {
                   ),
                   subtitle: Text(
                       "@Benzo is our barber and he is most excellent with little ones as well as big ones  I like a hard part or a sharp part and he accommodates. We are now training my son's hair in a little flip in the front. Like he's not handsome enough already  Bring cash."),
+                ),
+                Divider(
+                  height: 8,
+                  thickness: 10,
+                  color: Colors.black,
                 ),
                 ListTile(
                   tileColor: Color.fromARGB(255, 25, 98, 243),

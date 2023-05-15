@@ -72,8 +72,10 @@ class _AI_screenState extends State<AI_screen> {
   }
 
   Future<void> _addImage() async {
-    final image =
-        await ImagePicker.platform.pickImage(source: ImageSource.gallery);
+    final image = await ImagePicker.platform.pickImage(
+      source: ImageSource.gallery,
+      imageQuality: 60,
+    );
     if (image != null) {
       _selectedImage = File(image.path);
     }
@@ -108,7 +110,8 @@ class _AI_screenState extends State<AI_screen> {
                         ),
                           onPressed: () async {
                             final res = await uploadImage(
-                                File(_selectedImage!.path), "https://calculon.cs.csubak.edu/alonso/image/");
+                                File(_selectedImage!.path), 
+                                "https://calculon.cs.csubak.edu/alonso/image/");
                             debugPrint(res.body);
                             final val = jsonDecode(res.body);
                             face_shape = val['face_shape'];

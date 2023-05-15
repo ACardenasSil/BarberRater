@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_baberrater/screens/barber_profile.dart';
+import 'package:flutter_baberrater/screens/barber_profile2.dart';
+import 'package:flutter_baberrater/screens/barber_profile3.dart';
+import 'package:flutter_baberrater/screens/barber_profile4.dart';
+import 'package:flutter_baberrater/screens/barber_profile5.dart';
 
 // ignore: camel_case_types
 class shop_profile extends StatelessWidget {
@@ -36,6 +40,11 @@ class shop_profile extends StatelessWidget {
           //     ),
           //   ),
           // ),
+          const Divider(
+            height: 8,
+            thickness: 10,
+            color: Colors.black,
+          ),
           Expanded(
             flex: 5,
             child: Row(
@@ -47,7 +56,7 @@ class shop_profile extends StatelessWidget {
                     alignment: Alignment.center,
                     decoration: const BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage("../assets/images/shop2.jpg"),
+                            image: AssetImage("./assets/images/shop2.jpg"),
                             fit: BoxFit.fitWidth),
                         color: Colors.blueAccent),
                   ),
@@ -74,6 +83,11 @@ class shop_profile extends StatelessWidget {
               ],
             ),
           ),
+          const Divider(
+            height: 8,
+            thickness: 10,
+            color: Colors.black,
+          ),
           Expanded(
             flex: 5,
             child: ListView(
@@ -84,7 +98,7 @@ class shop_profile extends StatelessWidget {
                   width: 300,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/barberemp1.jpeg"),
+                          image: AssetImage("./assets/images/barberemp1.jpeg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                   child: TextButton(
@@ -111,12 +125,13 @@ class shop_profile extends StatelessWidget {
                   width: 300,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/barberemp2.jpeg"),
+                          image: AssetImage("./assets/images/barberemp2.jpeg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                   child: TextButton(
                     onPressed: () {
-                      Navigator.of(context).pushNamed(barber_profile.routeName);
+                      Navigator.of(context)
+                          .pushNamed(barber_profile2.routeName);
                     },
                     child: const Text(
                       'Vincent Blake',
@@ -138,12 +153,13 @@ class shop_profile extends StatelessWidget {
                   width: 300,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/barberemp3.jpeg"),
+                          image: AssetImage("./assets/images/barberemp3.jpeg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                   child: TextButton(
                     onPressed: () {
-                      Navigator.of(context).pushNamed(barber_profile.routeName);
+                      Navigator.of(context)
+                          .pushNamed(barber_profile3.routeName);
                     },
                     child: const Text(
                       'Davon Wilson',
@@ -165,12 +181,13 @@ class shop_profile extends StatelessWidget {
                   width: 300,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/barberemp4.jpeg"),
+                          image: AssetImage("./assets/images/barberemp4.jpeg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                   child: TextButton(
                     onPressed: () {
-                      Navigator.of(context).pushNamed(barber_profile.routeName);
+                      Navigator.of(context)
+                          .pushNamed(barber_profile4.routeName);
                     },
                     child: const Text(
                       'Jacob Adkins',
@@ -192,12 +209,13 @@ class shop_profile extends StatelessWidget {
                   width: 300,
                   decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("../assets/images/barberemp5.jpg"),
+                          image: AssetImage("./assets/images/barberemp5.jpg"),
                           fit: BoxFit.fitWidth),
                       color: Colors.blueAccent),
                   child: TextButton(
                     onPressed: () {
-                      Navigator.of(context).pushNamed(barber_profile.routeName);
+                      Navigator.of(context)
+                          .pushNamed(barber_profile5.routeName);
                     },
                     child: const Text(
                       'Jesus Reyes',
@@ -240,6 +258,11 @@ class shop_profile extends StatelessWidget {
           //     ),
           //   ),
           // ),
+          const Divider(
+            height: 8,
+            thickness: 10,
+            color: Colors.black,
+          ),
           Expanded(
             flex: 5,
             child: ListView(
@@ -258,18 +281,28 @@ class shop_profile extends StatelessWidget {
                   thickness: 15,
                   color: Colors.black,
                 ),
+                const Divider(
+                  height: 8,
+                  thickness: 10,
+                  color: Colors.black,
+                ),
                 ListTile(
                   tileColor: Color.fromARGB(255, 25, 98, 243),
                   title: Text(
-                    'Alonso chairs',
+                    'Alonso Sillas',
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   subtitle: Text(
-                      "@LuisG is our barber and he is most excellent with little ones as well as big ones  I like a hard part or a sharp part and he accommodates. We are now training my son's hair in a little flip in the front. Like he's not handsome enough already  Bring cash."),
+                      "@blake is our barber and he is most excellent with little ones as well as big ones  I like a hard part or a sharp part and he accommodates. We are now training my son's hair in a little flip in the front. Like he's not handsome enough already  Bring cash."),
                 ),
                 const VerticalDivider(
                   width: 3,
                   thickness: 15,
+                  color: Colors.black,
+                ),
+                const Divider(
+                  height: 8,
+                  thickness: 10,
                   color: Colors.black,
                 ),
                 ListTile(
