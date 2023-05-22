@@ -3,8 +3,6 @@ import 'package:flutter_baberrater/screens/customer_signup.dart';
 import 'package:flutter_baberrater/screens/shop_signup.dart';
 import 'package:flutter_baberrater/widgets/passwordModal.dart';
 import 'barber_signup.dart';
-import 'feed.dart';
-import 'navBar.dart';
 
 class signup_signin extends StatelessWidget {
   const signup_signin({super.key});

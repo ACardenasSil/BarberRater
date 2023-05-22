@@ -31,13 +31,14 @@ class _addPostState extends State<addPost> {
       setState(() {
         _image = imageTemporaty;
       });
-    } on PlatformException catch (e) {
+      // ignore: unused_catch_clause
+    } on PlatformException catch (error) {
       print('Failed to pick image');
     }
   }
 
   Future<File> saveFilePermenently(String imagePath) async {
-    final directory = await getApplicationDocumentsDirectory();
+    await getApplicationDocumentsDirectory();
     final name = basename(imagePath);
     final image = File('&{directory.path}/$name');
 

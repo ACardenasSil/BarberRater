@@ -2,7 +2,6 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter_baberrater/widgets/addpostModal.dart';
 import 'package:flutter_baberrater/widgets/postlist.dart';
 import '../models/posts.dart';

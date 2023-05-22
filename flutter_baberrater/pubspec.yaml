@@ -31,11 +31,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: 
   image_picker: 
   path_provider:
   intl:
   google_maps_flutter:
+  http: 
 
 
   # The following adds the Cupertino Icons font to your application.

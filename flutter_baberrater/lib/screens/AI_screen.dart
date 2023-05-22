@@ -6,11 +6,8 @@ Currently it only runs on an android device or emolulator
 
 import 'package:flutter/material.dart';
 
-import 'dart:convert';
 import 'dart:io';
-import 'dart:ui' as ui;
 
-import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
 
@@ -63,6 +60,7 @@ class _AI_screenState extends State<AI_screen> {
   }
 
   Future<void> _addImage() async {
+    // ignore: invalid_use_of_visible_for_testing_member
     final image = await ImagePicker.platform.pickImage(
       source: ImageSource.gallery,
       imageQuality: 60,

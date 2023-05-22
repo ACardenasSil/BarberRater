@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_baberrater/widgets/addpostModal.dart';
+import 'package:flutter_baberrater/widgets/googlemaps.dart';
 import './AI_screen.dart';
 import './shop_profile.dart';
-import './map.dart';
 import './feed.dart';
-import '../models/posts.dart';
-import 'dart:io';
 
 class navBar extends StatefulWidget {
   const navBar({super.key});
@@ -20,7 +17,7 @@ class _navBarState extends State<navBar> {
   final List<Map<String, Object>> _pages = const [
     {'page': feed_Screen(), 'title': 'FEED'},
     {'page': AI_screen(), 'title': 'AI'},
-    {'page': map_Screen(), 'title': 'MAP'},
+    {'page': MapSample(), 'title': 'MAP'},
     {'page': shop_profile(), 'title': 'PROFILE'}
   ];
   int _selectedPageIndex = 0;

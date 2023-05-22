@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_baberrater/screens/shop_profile.dart';
 
 class barber_profile5 extends StatelessWidget {
   const barber_profile5({super.key});
